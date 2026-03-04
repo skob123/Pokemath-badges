@@ -1,1 +1,1 @@
-javascript:(function()%7B%20%20%20let%20badges%20=%20JSON.parse(localStorage.getItem('badges'));%20%20%20badges.badges%20=%20badges.badges.map(b%20=%3E%20(%7B...b,%20achieved:%20true,%20progress:%20999999999,%20goal:%20999999999%7D));%20%20%20localStorage.setItem('badges',%20JSON.stringify(badges));%20%20%20location.reload();%20%7D)();
+
